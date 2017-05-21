@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+@media only screen and (min-width: 350px) and (max-width: 1024px) {
+    
+}
+
+body {
+    margin: 20px;
+    /* border: solid 2px grey ;*/
+    background-color: black;
+    color: white;
+    font-family: "ralewway" ,sans-serif;
+}
+/*.menu img {
+    position: relative;
+    top: 30px;
+    z-index: 999;*/
+}
+div .menu {
+    background-color:black;
+    padding: 1px;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    padding: 0 15px;
+    
+}
+.menu a {
+    text-decoration: none;
+    color: lightsteelblue;
+}
+.sub-menu a {
+    text-decoration: none;
+    color: lightsteelblue;
+}
+
+a:hover {
+    color: white;
+}
+.about {
+    margin: auto;
+    text-align: center;
+    padding-top: 15%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.slider {
+    margin:auto;
+    height: 400px;
+    width: 80%;
+    background-image: url(slider.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    }
+
+.sub-menu ul {
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 12%;
+}
+
+.sub-menu li {
+    display: inline;
+    padding: 0 20px
+}
+
+.btn a {
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+    /*border: solid 1px lightsteelblue;*/
+    border-radius: 5px;
+    background-color: #004550;
+}
+
+.btn a:hover {
+    color: lightsteelblue;
+}
