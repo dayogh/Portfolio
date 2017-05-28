@@ -25,12 +25,14 @@ div .menu {
     background-color: red;
     padding: 10px;
     border-radius: 5px;
+    align-content: center;
     
 }
 
 .menu li {
     display: inline;
     padding: 0 15px;
+    
     
 }
 .menu a {
@@ -40,6 +42,7 @@ div .menu {
 .sub-menu a {
     text-decoration: none;
     color: lightsteelblue;
+    display: block;
 }
 
 a:hover {
@@ -49,7 +52,6 @@ a:hover {
     margin: auto;
     text-align: center;
     padding-top: 15%;
-    background-size:contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -63,6 +65,7 @@ a:hover {
     background-image: url(slider.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
