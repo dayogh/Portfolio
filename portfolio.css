@@ -74,11 +74,10 @@ h1 {
     letter-spacing: 1px;
     }
 
-
-
 .sub-menu ul {
     margin-top: 2%;
     margin-bottom: 12%;
+    padding: 20px;
 }
 
 .sub-menu li {
@@ -88,9 +87,7 @@ h1 {
 
  .icon img {
     height: 400px;
-    width: 30px;
-    border-radius: 400px;
-    display: block;
+    width: 250px;
 }
 
 .btn a {
