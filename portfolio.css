@@ -90,12 +90,17 @@ h1 {
     width: 250px;
 }
 
+img:hover {
+    filter: grayscale(100%);
+}
+
 .btn a {
-    padding: 3px;
+    padding: 10px;
     text-decoration: none;
     color: white;
     border-radius: 5px;
     background-color: deepskyblue;
+    
 }
 
 .btn a:hover {
