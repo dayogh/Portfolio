@@ -22,7 +22,7 @@ div .menu {
 
 .menu ul {
     text-align: center;
-    background-color: red;
+    background-color: #fdd84f;
     padding: 10px;
     border-radius: 5px;
     align-content: center;
@@ -37,11 +37,11 @@ div .menu {
 }
 .menu a {
     text-decoration: none;
-    color: lightsteelblue;
+    color: #575b5f;
 }
 .sub-menu a {
     text-decoration: none;
-    color: lightsteelblue;
+    color: #575b5f;
     display: block;
 }
 
