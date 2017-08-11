@@ -92,6 +92,7 @@ h1 {
 
 img:hover {
     filter: grayscale(100%);
+    transition-duration: 5 ;
 }
 
 .btn a {
